@@ -92,7 +92,7 @@ namespace POE_of_Prog
                 SqlCommand cmd = new SqlCommand(query, con);
                 cmd.ExecuteNonQuery();
                 con.Close();
-                MessageBox.Show("Claim successfully sent!");
+                MessageBox.Show("Claim was successfully sent!");
                 Lecturer_DashBoard lecturer_DashBoard = new Lecturer_DashBoard();
                 lecturer_DashBoard.Show();
             }

@@ -54,7 +54,7 @@
             Claim.Name = "Claim";
             Claim.Size = new Size(127, 50);
             Claim.TabIndex = 0;
-            Claim.Text = "make Claim";
+            Claim.Text = "Claim";
             Claim.UseVisualStyleBackColor = false;
             Claim.Click += Claim_Click;
             // 
@@ -103,7 +103,7 @@
             Logout.Name = "Logout";
             Logout.Size = new Size(124, 42);
             Logout.TabIndex = 3;
-            Logout.Text = "Logout";
+            Logout.Text = "Log Out";
             Logout.UseVisualStyleBackColor = false;
             Logout.Click += Logout_Click;
             // 

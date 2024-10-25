@@ -101,7 +101,7 @@ namespace POE_of_Prog
                 SqlCommand cmd = new SqlCommand(query, con);
                 cmd.ExecuteNonQuery();
                 con.Close();
-                MessageBox.Show("Registration successfully saved");
+                MessageBox.Show("Registration was successfully saved");
                 Lecturer_DashBoard lecturer_DashBoard = new Lecturer_DashBoard();
                 lecturer_DashBoard.Show();
             }

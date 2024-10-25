@@ -44,11 +44,11 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 18F, FontStyle.Bold | FontStyle.Underline, GraphicsUnit.Point, 0);
-            label1.Location = new Point(38, 18);
+            label1.Location = new Point(256, 9);
             label1.Name = "label1";
-            label1.Size = new Size(567, 32);
+            label1.Size = new Size(119, 32);
             label1.TabIndex = 0;
-            label1.Text = "Welcome To The Contract Monthly Claim System";
+            label1.Text = "Welcome";
             // 
             // label2
             // 
@@ -140,7 +140,7 @@
             // 
             button4.BackColor = SystemColors.ButtonShadow;
             button4.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button4.Location = new Point(11, 359);
+            button4.Location = new Point(50, 359);
             button4.Name = "button4";
             button4.Size = new Size(101, 27);
             button4.TabIndex = 9;
